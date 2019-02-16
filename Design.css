@@ -1,0 +1,169 @@
+/* Reset */
+html, body, div, span, object,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, code,
+em, font, img,
+small, strong,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+a{
+	text-decoration: none;
+	color: black
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+/* Main Styles*/
+html{
+	background: url("bg.gif") repeat;
+}
+
+#container{
+	width: 799px;
+	margin: 3em auto
+}
+
+#header{
+	overflow: hidden;
+}
+
+#header img{
+	float: left;
+}
+
+#header ul#nav{
+	float: right;
+	font-size: 16px;
+	position: relative;
+	top: 11px;
+}
+
+#nav li{
+	display: inline;
+	padding-right: 27px;
+}
+
+#nav li a{
+	color: white
+}
+
+#featured{
+	background: url("featured-bg.png");
+	margin-top: 54px;
+	overflow: hidden;
+	padding-right: 35px;
+}
+
+#featured img.featuredImage{
+	float: left;
+	border: 1px solid #d4d4d4;
+	margin: 2.3em;
+}
+
+#featured h2{
+	color: #184263;
+	font-size: 28px;
+	margin-top: 18px; 
+	margin-bottom: 15px;    
+}
+
+#featured p{
+	color: #626262;
+	margin-bottom: 25px;
+}
+
+#featured p#details{
+	color: #215379;
+}
+
+#main{
+	position: relative;
+}
+
+#main #slogan{
+	font-size: 30px;
+	line-height: 32px;
+	color: white;
+	padding-top: 76px;
+	padding-bottom: 97px;
+	width: 770px;
+}
+
+#slogan span{
+	color: #65bdff;
+}
+
+#main img#mainGraphic{
+	position: absolute;
+	right: -105px;
+	top: 35px;
+}
+
+#main p{
+	font-size: 12px;
+	color: white;
+	 line-height: 22px;
+}
+
+#col1, #col2, #col3{
+	float: left;
+	width: 207px; /*should be 237px is possible*/
+	background: grey;
+	margin-right: 4.45em;
+}
+
+#col3{
+	margin-right: 0;
+	margin-bottom: 65px;
+}
+
+#col3 #date{
+	color: #65bdff;
+	font-size: 11px;
+	margin-bottom: 0.3em;
+}
+
+#col3 h5{
+	color: white;
+	font-size: 12px;
+}
+
+#footer{
+	clear: both; 
+	background: url(Down-strip_07.jpg) no-repeat;
+	width:770px;
+	height: 103px;
+	overflow: hidden;
+	padding-bottom: 2em;
+}
+
